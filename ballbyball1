@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>BallByBall18 - Live Cricket</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>	
+body{
+font-family: Arial;
+background:#0f172a;
+color:white;	
+text-align:center;
+}
+
+.header{
+background:#1e293b;
+padding:15px;
+font-size:24px;
+font-weight:bold;
+}
+
+.match{
+background:#1e293b;
+margin:15px;
+padding:15px;
+border-radius:10px;
+}
+
+.btn{
+background:#22c55e;
+padding:10px 20px;
+border:none;
+border-radius:6px;
+color:white;
+font-size:16px;
+cursor:pointer;
+}
+
+.btn:hover{
+background:#16a34a;
+}
+</style>
+</head>
+
+<body>
+
+<div class="header">
+🏏 BallByBall18 Live Cricket
+</div>
+
+<div class="match">
+<h3>IND vs AUS - Live Match</h3>
+<p>Click below to watch live</p>
+<button class="btn" onclick="openLink()">Watch Live</button>
+</div>
+
+<div class="match">
+<h3>NZ vs SA - Live Match</h3>
+<p>Ball by Ball Updates</p>
+<button class="btn" onclick="openLink()">Open Stream</button>
+</div>
+
+<script>
+function openLink(){
+window.location.href="https://t.me/";
+}
+</script>
+
+</body>
+</html>
